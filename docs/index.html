@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Hub — Booster Bundle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #121212;
+    --cream: #1B1B1B;
+    --sage: #242424;
+    --volt: #5FD53A;
+    --white: #FFFFFF;
+    --gray-mid: #9A9A9A;
+    --s1: 4px;
+    --s2: 8px;
+    --s3: 12px;
+    --s4: 16px;
+    --s5: 24px;
+    --s6: 32px;
+    --s7: 48px;
+    --s8: 64px;
+    --display: 'Archivo Black', sans-serif;
+    --mono: 'Space Mono', monospace;
+    --body: 'Inter', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--body);
+    line-height: 1.5;
+    padding: var(--s8) var(--s5) var(--s8);
+  }
+
+  .wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: var(--s3);
+    color: var(--gray-mid);
+  }
+
+  h1.display {
+    font-family: var(--display);
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    margin-bottom: var(--s7);
+  }
+
+  .mark {
+    background: var(--volt);
+    color: var(--black);
+    padding: 0 8px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  section {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: var(--s6);
+    margin-top: var(--s8);
+  }
+
+  section:first-of-type {
+    border-top: none;
+    margin-top: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--s5);
+    margin-top: var(--s6);
+  }
+
+  .card {
+    background: var(--cream);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: var(--s6);
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.2s ease;
+  }
+
+  .card:hover {
+    background: var(--sage);
+    border-color: var(--volt);
+  }
+
+  .card h3 {
+    font-family: var(--display);
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-bottom: var(--s4);
+    color: var(--volt);
+  }
+
+  .card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--gray-mid);
+  }
+
+  .cta {
+    display: inline-block;
+    margin-top: var(--s4);
+    font-family: var(--mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--volt);
+  }
+
+  footer {
+    margin-top: var(--s8);
+    padding-top: var(--s6);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--gray-mid);
+  }
+
+  .lang-toggle {
+    position: absolute;
+    top: var(--s6);
+    right: var(--s6);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+
+  .lang-toggle a {
+    color: var(--gray-mid);
+    text-decoration: none;
+    margin-left: var(--s4);
+  }
+
+  .lang-toggle a.active {
+    color: var(--volt);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="lang-toggle">
+    <a href="/" class="active">ES</a>
+    <a href="/en">EN</a>
+  </div>
+
+  <span class="eyebrow">//legal hub</span>
+  <h1 class="display">Documentos<br><span class="mark">Legales</span></h1>
+  <p style="font-size: 14px; color: var(--gray-mid); margin-bottom: var(--s8);">
+    Acceso a la información legal, privacidad y protección de datos de Booster Bundle.
+  </p>
+
+  <section>
+    <div class="grid">
+      <a href="/terms" class="card">
+        <h3>Términos y<br>Condiciones</h3>
+        <p>Condiciones generales de uso y términos de servicio de Booster Bundle.</p>
+        <span class="cta">Leer →</span>
+      </a>
+
+      <a href="/privacy" class="card">
+        <h3>Política de<br>Privacidad</h3>
+        <p>Cómo recopilamos, usamos y protegemos tus datos personales.</p>
+        <span class="cta">Leer →</span>
+      </a>
+
+      <a href="/data-protection" class="card">
+        <h3>Protección de<br>Datos (RGPD)</h3>
+        <p>Conformidad con RGPD y derechos de los interesados según la ley española.</p>
+        <span class="cta">Leer →</span>
+      </a>
+
+      <a href="/cookies" class="card">
+        <h3>Política de<br>Cookies</h3>
+        <p>Información sobre cookies y tecnologías de seguimiento utilizadas.</p>
+        <span class="cta">Leer →</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    Booster Bundle — Legal Hub 2026 | Datos de contacto: <a href="mailto:legal@boosterbundle.digital" style="color: var(--gray-mid); text-decoration: none;">legal@boosterbundle.digital</a>
+  </footer>
+</div>
+</body>
+</html>
