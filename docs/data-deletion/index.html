@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Solicitud de Eliminación de Datos — Booster Bundle</title>
+<title>Data Deletion Request — Booster Bundle</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -67,6 +67,14 @@
     letter-spacing: -0.02em;
     margin: var(--s6) 0 var(--s4);
     color: var(--volt);
+  }
+
+  h3 {
+    color: var(--volt);
+    font-family: var(--display);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: var(--s5) 0 var(--s4);
   }
 
   p, li {
@@ -187,132 +195,134 @@
     font-size: 13px;
     color: #FFC107;
   }
+
+  --s3: 12px;
 </style>
 </head>
 <body>
 <div class="wrap">
-  <a href="/" class="back">← Volver</a>
+  <a href="/en/" class="back">← Back</a>
 
-  <h1>Solicitud de<br>Eliminación de Datos</h1>
+  <h1>Data Deletion<br>Request</h1>
 
-  <h2>Tu Derecho al Olvido</h2>
-  <p>Según el RGPD (Artículo 17) y la LOPD-GDD española, tienes el derecho a solicitar la <strong>eliminación total de tus datos personales</strong> de nuestros sistemas en cualquier momento. Llamamos a esto "Derecho al Olvido".</p>
+  <h2>Your Right to Erasure</h2>
+  <p>Under the GDPR (Article 17) and Spanish law, you have the right to request <strong>complete deletion of your personal data</strong> from our systems at any time. We call this the "Right to Erasure."</p>
 
   <div class="box">
-    <h3>¿Qué significa?</h3>
-    <p>Eliminamos:</p>
+    <h3>What Does This Mean?</h3>
+    <p>We delete:</p>
     <ul>
-      <li>Tu nombre, email y teléfono</li>
-      <li>Historial de compras y acceso a contenido</li>
-      <li>Datos de navegación e IP vinculados a tu cuenta</li>
-      <li>Cualquier dato personal identificable</li>
+      <li>Your name, email, and phone</li>
+      <li>Purchase history and content access</li>
+      <li>Navigation data and IP linked to your account</li>
+      <li>Any personally identifiable information</li>
     </ul>
-    <p style="margin-top: var(--s5); font-size: 12px;"><strong>Excepciones legales:</strong> conservamos registros de transacción financiera durante 6 años (obligatorio por ley de impuestos).</p>
+    <p style="margin-top: var(--s5); font-size: 12px;"><strong>Legal Exceptions:</strong> we retain financial transaction records for 6 years (required by tax law).</p>
   </div>
 
-  <h2>Cómo Solicitar tu Eliminación</h2>
+  <h2>How to Request Deletion</h2>
 
-  <p>Tienes <strong>3 formas</strong> de solicitar la eliminación de tus datos:</p>
+  <p>You have <strong>3 ways</strong> to request data deletion:</p>
 
-  <h3 style="color: var(--volt); font-size: 18px; margin: var(--s5) 0 var(--s4);">1. Email Directo</h3>
-  <p>Envía un email a <strong><a href="mailto:legal@boosterbundle.digital" style="color: var(--volt);">legal@boosterbundle.digital</a></strong> con el asunto:</p>
+  <h3 style="color: var(--volt); font-size: 18px; margin: var(--s5) 0 var(--s4);">1. Direct Email</h3>
+  <p>Send an email to <strong><a href="mailto:legal@boosterbundle.digital" style="color: var(--volt);">legal@boosterbundle.digital</a></strong> with the subject:</p>
   <div class="box">
-    <p style="font-family: var(--mono); background: rgba(95, 213, 58, 0.1); padding: var(--s4); margin: 0;"><strong>Asunto:</strong> "Solicitud de Eliminación de Datos - RGPD Art. 17"</p>
+    <p style="font-family: var(--mono); background: rgba(95, 213, 58, 0.1); padding: var(--s4); margin: 0;"><strong>Subject:</strong> "Data Deletion Request - GDPR Art. 17"</p>
   </div>
-  <p style="margin-top: var(--s5);">En el correo incluye:</p>
+  <p style="margin-top: var(--s5);">In your email include:</p>
   <ul>
-    <li>Tu nombre completo</li>
-    <li>El email asociado a tu cuenta</li>
-    <li>Confirmación de que deseas eliminar todos tus datos</li>
+    <li>Your full name</li>
+    <li>The email associated with your account</li>
+    <li>Confirmation that you want to delete all your data</li>
   </ul>
 
-  <h3 style="color: var(--volt); font-size: 18px; margin: var(--s5) 0 var(--s4);">2. Formulario en Línea</h3>
-  <p>Completa el siguiente formulario y lo procesaremos automáticamente:</p>
+  <h3 style="color: var(--volt); font-size: 18px; margin: var(--s5) 0 var(--s4);">2. Online Form</h3>
+  <p>Complete the following form and we will process it automatically:</p>
 
   <form class="form-section" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <h3>Formulario de Eliminación de Datos</h3>
+    <h3>Data Deletion Form</h3>
 
     <div class="form-group">
-      <label for="nombre">Nombre Completo *</label>
+      <label for="nombre">Full Name *</label>
       <input type="text" id="nombre" name="nombre" required>
     </div>
 
     <div class="form-group">
-      <label for="email">Email Registrado *</label>
+      <label for="email">Registered Email *</label>
       <input type="email" id="email" name="email" required>
     </div>
 
     <div class="form-group">
-      <label for="motivo">Razón de la Solicitud (Opcional)</label>
-      <textarea id="motivo" name="motivo" placeholder="Por favor, cuéntanos por qué deseas eliminar tu cuenta..."></textarea>
+      <label for="motivo">Reason for Request (Optional)</label>
+      <textarea id="motivo" name="motivo" placeholder="Please tell us why you want to delete your account..."></textarea>
     </div>
 
     <div class="note">
-      ⚠️ <strong>Importante:</strong> Esta acción es irreversible. Una vez eliminados, no podemos recuperar tus datos. Tendrás acceso a tu cuenta durante 30 días más para descargar cualquier contenido.
+      ⚠️ <strong>Important:</strong> This action is irreversible. Once deleted, we cannot recover your data. You will have access to your account for 30 more days to download any content.
     </div>
 
-    <button type="submit" class="btn">Solicitar Eliminación</button>
+    <button type="submit" class="btn">Request Deletion</button>
   </form>
 
-  <h3 style="color: var(--volt); font-size: 18px; margin: var(--s5) 0 var(--s4);">3. A través de tu Cuenta</h3>
-  <p>En tu panel de usuario de Booster Bundle:</p>
+  <h3 style="color: var(--volt); font-size: 18px; margin: var(--s5) 0 var(--s4);">3. Through Your Account</h3>
+  <p>In your Booster Bundle user dashboard:</p>
   <ol>
-    <li>Ve a <strong>Configuración</strong> → <strong>Privacidad y Datos</strong></li>
-    <li>Haz clic en <strong>"Solicitar Eliminación de Cuenta"</strong></li>
-    <li>Confirma tu solicitud</li>
+    <li>Go to <strong>Settings</strong> → <strong>Privacy and Data</strong></li>
+    <li>Click <strong>"Request Account Deletion"</strong></li>
+    <li>Confirm your request</li>
   </ol>
 
-  <h2>Plazo de Respuesta</h2>
+  <h2>Response Timeline</h2>
   <div class="box">
-    <h3>30 Días Naturales</h3>
-    <p>Responderemos a tu solicitud en <strong>máximo 30 días</strong> (Art. 12 RGPD). Si tu solicitud es compleja, podemos extenderlo a 90 días y te notificaremos por email.</p>
-    <p style="margin-top: var(--s4); font-size: 12px;"><strong>Sin coste:</strong> El proceso es completamente gratuito.</p>
+    <h3>30 Calendar Days</h3>
+    <p>We will respond to your request within <strong>maximum 30 days</strong> (GDPR Art. 12). If your request is complex, we may extend to 90 days and will notify you by email.</p>
+    <p style="margin-top: var(--s4); font-size: 12px;"><strong>No Cost:</strong> The process is completely free.</p>
   </div>
 
-  <h2>Qué Sucede Después</h2>
+  <h2>What Happens Next</h2>
   <ul>
-    <li>Eliminamos todos tus datos personales de nuestros sistemas</li>
-    <li>Instrucciones a nuestros proveedores (Shopify, GoHighLevel, etc.) para eliminar sus copias</li>
-    <li>Confirmación por email cuando la eliminación esté completa</li>
-    <li>Tu acceso a la plataforma se desactiva automáticamente</li>
+    <li>We delete all your personal data from our systems</li>
+    <li>Instructions to our vendors (Shopify, GoHighLevel, etc.) to delete their copies</li>
+    <li>Email confirmation when deletion is complete</li>
+    <li>Your access to the platform is automatically deactivated</li>
   </ul>
 
-  <h2>Excepciones (Datos que se Conservan)</h2>
-  <p>Por ley, conservamos:</p>
+  <h2>Exceptions (Data We Retain)</h2>
+  <p>By law, we retain:</p>
   <ul>
-    <li><strong>Registros Fiscales:</strong> 6 años (obligatorio por ley de impuestos)</li>
-    <li><strong>Registros de Seguridad:</strong> si hay sospecha de fraude (máximo 1 año)</li>
-    <li><strong>Datos Anonimizados:</strong> para estadísticas de negocio (no identificables)</li>
+    <li><strong>Tax Records:</strong> 6 years (required by tax law)</li>
+    <li><strong>Security Records:</strong> if fraud is suspected (maximum 1 year)</li>
+    <li><strong>Anonymized Data:</strong> for business statistics (not identifiable)</li>
   </ul>
 
-  <h2>Preguntas Frecuentes</h2>
+  <h2>Frequently Asked Questions</h2>
 
-  <h3 style="color: var(--volt); font-size: 16px; margin: var(--s5) 0 var(--s4);">¿Puedo cambiar de opinión?</h3>
-  <p>Sí, durante los primeros 30 días de tu solicitud. Contáctanos para cancelarla. Después de la eliminación, no es posible recuperar los datos.</p>
+  <h3>Can I change my mind?</h3>
+  <p>Yes, within the first 30 days of your request. Contact us to cancel it. After deletion, data cannot be recovered.</p>
 
-  <h3 style="color: var(--volt); font-size: 16px; margin: var(--s5) 0 var(--s4);">¿Qué pasa con mis compras?</h3>
-  <p>Tu historial de compras se anonimiza (solo se conserva la fecha y monto, no vinculado a ti). No puedes acceder a contenido descargado anteriormente.</p>
+  <h3>What about my purchases?</h3>
+  <p>Your purchase history is anonymized (only date and amount retained, not linked to you). You cannot access previously downloaded content.</p>
 
-  <h3 style="color: var(--volt); font-size: 16px; margin: var(--s5) 0 var(--s4);">¿Y mis datos en redes sociales?</h3>
-  <p>Eliminamos tus datos de nuestros sistemas, pero no de plataformas como Facebook o Google. Debes solicitar eliminación en esos servicios directamente.</p>
+  <h3>What about my social media data?</h3>
+  <p>We delete your data from our systems, but not from platforms like Facebook or Google. You must request deletion from those services directly.</p>
 
-  <h3 style="color: var(--volt); font-size: 16px; margin: var(--s5) 0 var(--s4);">¿Cómo verifican mi identidad?</h3>
-  <p>Te enviaremos un enlace de verificación al email registrado. Solo accediendo a ese enlace confirmas que eres propietario de la cuenta.</p>
+  <h3>How do you verify my identity?</h3>
+  <p>We will send a verification link to your registered email. Only by accessing that link do you confirm ownership of the account.</p>
 
-  <h2>Contacto</h2>
-  <p><strong>Email de Privacidad y Derechos RGPD:</strong> <a href="mailto:legal@boosterbundle.digital" style="color: var(--volt); text-decoration: none;">legal@boosterbundle.digital</a></p>
-  <p><strong>Dirección de Contacto:</strong> Calle Bravo Murillo, 91, 28003 Madrid, España</p>
+  <h2>Contact</h2>
+  <p><strong>Privacy and GDPR Rights Email:</strong> <a href="mailto:legal@boosterbundle.digital" style="color: var(--volt); text-decoration: none;">legal@boosterbundle.digital</a></p>
+  <p><strong>Contact Address:</strong> Calle Bravo Murillo, 91, 28003 Madrid, Spain</p>
 
-  <h2>Referencia Legal</h2>
-  <p>Esta página cumple con:</p>
+  <h2>Legal Reference</h2>
+  <p>This page complies with:</p>
   <ul>
-    <li><strong>RGPD Art. 17:</strong> Derecho de Supresión ("Derecho al Olvido")</li>
-    <li><strong>RGPD Art. 12:</strong> Facilitación del Ejercicio de Derechos</li>
-    <li><strong>LOPD-GDD (España):</strong> Ley Orgánica de Protección de Datos</li>
-    <li><strong>Requisito de Facebook/Meta Developers:</strong> Instrucciones de Eliminación de Datos</li>
+    <li><strong>GDPR Art. 17:</strong> Right to Erasure ("Right to Be Forgotten")</li>
+    <li><strong>GDPR Art. 12:</strong> Facilitating Exercise of Rights</li>
+    <li><strong>Spanish LOPD-GDD:</strong> Organic Law on Data Protection</li>
+    <li><strong>Facebook/Meta Developers Requirement:</strong> Data Deletion Instructions</li>
   </ul>
 
-  <footer>Última actualización: Junio 2026 | Cumplimiento RGPD Art. 12, 17</footer>
+  <footer>Last updated: June 2026 | GDPR Art. 12, 17 Compliance</footer>
 </div>
 </body>
 </html>
