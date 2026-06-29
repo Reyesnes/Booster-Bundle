@@ -113,11 +113,34 @@
     text-transform: uppercase;
     color: var(--gray-mid);
   }
+
+  .lang-toggle {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+  }
+
+  .lang-toggle a {
+    color: #9A9A9A;
+    text-decoration: none;
+    margin-left: 16px;
+  }
+
+  .lang-toggle a.active {
+    color: #5FD53A;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <a href="/en/" class="back">← Back</a>
+  <div class="lang-toggle">
+    <a href="/cookies" class="active">EN</a>
+    <a href="/es/cookies">ES</a>
+  </div>
+
+  <a href="/" class="back">← Back</a>
 
   <h1>Cookie<br>Policy</h1>
 

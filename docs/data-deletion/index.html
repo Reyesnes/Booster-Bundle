@@ -196,12 +196,35 @@
     color: #FFC107;
   }
 
+  .lang-toggle {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+  }
+
+  .lang-toggle a {
+    color: #9A9A9A;
+    text-decoration: none;
+    margin-left: 16px;
+  }
+
+  .lang-toggle a.active {
+    color: #5FD53A;
+  }
+
   --s3: 12px;
 </style>
 </head>
 <body>
 <div class="wrap">
-  <a href="/en/" class="back">← Back</a>
+  <div class="lang-toggle">
+    <a href="/data-deletion" class="active">EN</a>
+    <a href="/es/data-deletion">ES</a>
+  </div>
+
+  <a href="/" class="back">← Back</a>
 
   <h1>Data Deletion<br>Request</h1>
 
