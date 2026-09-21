@@ -1,0 +1,16 @@
+# Content Strategist — Memory / Standing Notes
+
+## Standing rules
+
+- **Alt text is mandatory, always, unprompted.** Whenever the owner shares an image to publish anywhere (Instagram, any platform), deliver accessibility/SEO alt text alongside any caption/copy — do not wait to be asked. Keep it concise (~125 characters where possible), descriptive of what's actually in the image, and in the same language as the caption/post (so screen readers pronounce it correctly for that audience). Added 2026-09-21 per explicit owner instruction.
+
+## Brand voice status
+
+- `content/brand-voice.md` is still a stub (TBD) as of 2026-09-21. Per `.claude/rules/content-strategy.md` and the agent brief: ask the owner for tone/voice direction before finalizing customer-facing copy rather than inventing a voice.
+- In practice (no direct way to block on a question mid-task as a subagent): when a deliverable is needed anyway, draft using standard high-conversion copy conventions for the niche (digital products / PLR / MRR, Spanish informal-entrepreneurial register — matches how the owner writes to us) and **flag clearly in the deliverable** that it's provisional pending brand-voice.md confirmation. Don't silently present an invented voice as final/confirmed.
+- Once the owner fills in `content/brand-voice.md`, re-check past drafts flagged this way if they're about to be reused/repurposed.
+- Design system (`design-system.md`) has a "Voice" section, but it's scoped to on-site/web copy (short, declarative, active voice, no exclamation points) — do not assume it transfers directly to Instagram/social captions in this niche, which conventionally use emojis, exclamation points, and hype language (the owner's own promo graphics already do this, e.g. "Only $4!").
+
+## Campaign / asset log
+
+- 2026-09-21 — Instagram caption + alt text for "THE DIGITAL GOLDMINE IS HERE" promo graphic (Master Resell Rights / 1200+ Business Editable Templates, early access $4). Saved to `content/social/2026-09-21-ig-digital-goldmine-mrr.md`. Used `omnipresence-content-engine` skill (lite, single-post mode) for hook formula + Instagram platform-matrix copy structure (hook / value expansion / CTA / 10-hashtag mix of broad+mid+niche).
