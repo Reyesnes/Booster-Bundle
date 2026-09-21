@@ -1,13 +1,23 @@
-# Booster Bundle — Legal Hub
+# Booster Bundle — Ops Base
 
-Hub de documentos legales para Booster Bundle, accesible en **legal.boosterbundle.digital**.
+Base de operaciones de Booster Bundle: hub legal público, copia de trabajo del sitio en Go High Level (GHL), y espacio de contenido/ads/estrategia. Ver `CLAUDE.md` para el mapa completo del repositorio y las reglas de trabajo con Claude Code.
 
-## 📋 Contenido
+## 📋 Legal Hub (`docs/`)
+
+Accesible en **legal.boosterbundle.digital**, bilingüe (EN por defecto en `/`, ES en `/es/`, EN explícito en `/en/`):
 
 - **Términos y Condiciones** (`/terms`) — Condiciones de uso generales
 - **Política de Privacidad** (`/privacy`) — Recopilación y uso de datos
 - **Protección de Datos** (`/data-protection`) — Cumplimiento RGPD y LOPD-GDD
 - **Política de Cookies** (`/cookies`) — Cookies y tecnologías de seguimiento
+- **Eliminación de Datos** (`/data-deletion`) — Requisito de Meta/Facebook Developers
+
+## 🗂️ Otras áreas del repositorio
+
+- **`ghl/`** — Copia de trabajo del sitio principal, construido en Go High Level. Toda edición de código GHL usa el skill `ghl-code-builder` (ver `.claude/rules/ghl.md`).
+- **`content/`** — Calendarios de contenido, copy de anuncios, contenido social, voz de marca.
+- **`strategy/`** — Roadmap, OKRs y estrategia de escalado.
+- **`.claude/`** — Memoria del proyecto: reglas por carpeta (`.claude/rules/`) y subagentes especializados (`.claude/agents/`).
 
 ## 🎨 Design System
 
@@ -57,17 +67,19 @@ Email: legal@boosterbundle.digital
 
 ```
 boosterbundle/
-├── docs/                    ← GitHub Pages sirve desde aquí
+├── CLAUDE.md                ← memoria/reglas del proyecto para Claude Code
+├── docs/                    ← Legal Hub, GitHub Pages sirve desde aquí
 │   ├── CNAME
-│   ├── index.html           (hub principal)
-│   ├── terms/
-│   │   └── index.html
-│   ├── privacy/
-│   │   └── index.html
-│   ├── data-protection/
-│   │   └── index.html
-│   ├── cookies/
-│   │   └── index.html
+│   ├── index.html           (EN, por defecto) / es/index.html / en/index.html
+│   ├── terms/ · privacy/ · data-protection/ · cookies/ · data-deletion/
+│   └── es/                  (mismas rutas en español)
+├── ghl/                     ← copia de trabajo del sitio en Go High Level
+│   └── pages/<slug>/{source.html, notes.md}
+├── content/                 ← contenido, ads, calendario, voz de marca
+├── strategy/                ← roadmap, OKRs
+├── .claude/
+│   ├── rules/               (reglas por carpeta)
+│   └── agents/              (subagentes: legal-hub-editor, ghl-maintainer, content-strategist)
 ├── design-system.md         (referencia)
 ├── design-system.html       (visual)
 └── README.md                (este archivo)
