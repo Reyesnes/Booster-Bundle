@@ -3,6 +3,7 @@
 ## Standing rules
 
 - **Alt text is mandatory, always, unprompted.** Whenever the owner shares an image to publish anywhere (Instagram, any platform), deliver accessibility/SEO alt text alongside any caption/copy — do not wait to be asked. Keep it concise (~125 characters where possible), descriptive of what's actually in the image, and in the same language as the caption/post (so screen readers pronounce it correctly for that audience). Added 2026-09-21 per explicit owner instruction.
+- **Default posting copy language: English.** First draft of the 2026-09-21 IG caption was written in Spanish (matching how the owner chats with us) and the owner corrected it to English. Default to English for customer-facing post copy (captions, alt text, ads) going forward unless a specific request says otherwise — don't infer language from the chat language.
 
 ## Brand voice status
 

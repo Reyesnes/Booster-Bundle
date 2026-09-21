@@ -7,7 +7,33 @@
 
 ---
 
-## Caption (ES) — ready to post
+## Caption (EN) — ready to post
+
+```
+$4 for over 1 MILLION digital products with resell rights included. Yes, you read that right. 👀
+
+The digital goldmine is here: 1200+ fully editable business templates, with Full Commercial Rights, ready for you to sell as your own — starting today.
+
+✅ Sell immediately
+✅ Keep 100% of the profits
+✅ Scale without limits
+✅ Zero creation time — the work is already done
+
+⏳ Early access available for ONLY $4. This is the lowest price you'll ever see — it's going up soon.
+
+👉 Grab your access now, link in bio. Passive income unlocked.
+
+#entrepreneurship #digitalmarketing #onlinebusiness #passiveincome #digitalproducts #masterresellrights #infoproducts #plr #digitalresell #boosterbundle
+```
+
+## Alt text (EN) — required, add via IG's "advanced settings > alt text"
+
+```
+Booster Bundle ad: laptop displaying 1200+ editable business templates, Master Resell Rights badge, early access for $4.
+```
+(121 characters — under the ~125 best-practice limit.)
+
+## Caption (ES) — original draft, superseded per owner instruction (2026-09-21: "texts must be in English")
 
 ```
 $4 por más de 1 MILLÓN de productos digitales con derechos de reventa incluidos. Sí, leíste bien. 👀
@@ -26,18 +52,12 @@ La mina de oro digital ya está aquí: +1200 plantillas de negocio 100% editable
 #emprendimiento #marketingdigital #negociosonline #ingresopasivo #productosdigitales #masterresellrights #infoproductos #plr #reventadigital #boosterbundle
 ```
 
-## Alt text (ES) — required, add via IG's "advanced settings > alt text"
-
-```
-Anuncio Booster Bundle: laptop con +1200 plantillas de negocio editables, sello Master Resell Rights, acceso anticipado por $4.
-```
-(119 characters — under the ~125 best-practice limit.)
-
 ---
 
 ## Notes
 
-- **Brand voice caveat:** `content/brand-voice.md` is still a stub (status: TBD) as of this draft. This caption uses standard high-conversion Instagram copy for the digital-products/PLR/MRR niche (direct, urgent, Spanish informal-entrepreneurial register, matching how the owner communicates and the tone already present on the promo graphic itself). **Recommend the owner fill in `content/brand-voice.md`** so future captions don't need this caveat and can be checked against an actual reference.
+- **Brand voice caveat:** `content/brand-voice.md` is still a stub (status: TBD) as of this draft. This caption uses standard high-conversion Instagram copy for the digital-products/PLR/MRR niche (direct, urgent register, matching the tone already present on the promo graphic itself). **Recommend the owner fill in `content/brand-voice.md`** so future captions don't need this caveat and can be checked against an actual reference.
+- **Language:** Posting copy is English. Owner corrected an initial Spanish draft on 2026-09-21 — see standing note in agent memory.
 - Hook formula used: surprising-number open ($4 for 1M+ products) + urgency close, per `omnipresence-content-engine` hook system.
 - Hashtag mix follows platform-matrix guidance: 3 broad + 4 mid-tier + 3 niche/small.
 - CTA assumes "link in bio" — swap for the actual checkout/funnel link if the owner wants it hardcoded elsewhere (e.g. Stories link sticker).
